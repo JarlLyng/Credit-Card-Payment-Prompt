@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <!-- ****** faviconit.com favicons ****** -->
+    <!-- Get favicons from faviconit.com if needed -->
+    <!-- ****** faviconit.com favicons ****** -->
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Credit Card Payment Prompt</title>
+
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="site-wrapper">
+    <div class="card-wrapper">
+
+      <legend><img src="assets/VisaLogo.png" alt="Visa Logo"></legend>
+
+      <fieldset>
+          <label for="card-number">Card number</label>
+          <input type="number" id="card-number" name="user_cardNumber" placeholder="xxx xxx xxx xxx">
+
+          <label for="cvc">Cvc</label>
+          <input type="number" id="cvc" name="user_cvc" placeholder="xxx">
+      </fieldset>
+
+      <fieldset>
+        <label for="card-holder-name">Card holder name</label>
+        <input type="text" id="card-holder-name" name="user_cardHolderName" placeholder="John Doe">
+      </fieldset>
+
+      <fieldset>
+        <label for="expiration-date">Expiration date</label>
+        <input type="month" id="expiration-date" name="user_expirationDate">
+      </fieldset>
+
+      <fieldset>
+        <button type="submit">Complete order</button>
+      </fieldset>
+
+    </div>
+  </div>
+</body>
+</html>
